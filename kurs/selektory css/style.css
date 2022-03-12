@@ -1,0 +1,74 @@
+/*  Selektory::after- znaczniki
+- klasy
+-id
+- znaczniki (nazwa elementu np h1)
+- gwiazdka */
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Title{
+    color: red;
+} */
+
+/* *{
+
+    color: red;
+}
+#Title{
+    color: green;
+}
+.pageTitle{
+    color: blue;
+}
+h1{
+    color: orange;
+} */
+
+
+html{
+    font-size: 10px;
+}
+
+.wrapper{
+    height: 200px;
+    background-color: gold;
+    border: 3px solid black;
+    width: 450px;
+}
+
+.wrapper1{
+width: 500px;
+height: 300px;
+background-color: bisque;
+margin-top: 30px;
+border: 3px solid black;
+}
+
+.wrapper2{
+    width: 500px;
+    height: 300px;
+    background-color: bisque;
+    margin-top: 30px;
+    border: 3px solid black;
+    }
+.innerWrapper{
+    height: 70%;
+    width: 60%;
+    background-color: red;
+}
+
+.remTitle{
+    font-size: 3rem;
+}
+
+.textWrapper{
+    font-size: 20px;
+}
+.minorWrapper{
+    font-size: 2em;
+}

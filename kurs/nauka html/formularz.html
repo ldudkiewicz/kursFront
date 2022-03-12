@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <form action="https://www.homebook.pl/inspiracje/ogrod" method="get">
+        <p>Tu będę umieszczane dane pola formularza</p>
+    </form>
+    <br>
+    <form action="https://www.homebook.pl/inspiracje/ogrod">
+        <p>Nazwa użytkownika
+            <input type="text" name="username" size="15" maxlength="30">
+        </p>
+    </form>
+    <br>
+    <form action="https://www.homebook.pl/">
+        <p>Nazwa użytkownika:
+            <input type="text" name="username" size="15" maxlength="30">
+        </p>
+        <p>Hasło:
+            <input type="password" name="password" size="15" maxlength="30">
+        </p>
+    </form>
+    <br>
+    <form action="https://www.homebook.pl/">
+        <p>Co myślisz o tym koncercie?</p>
+        <textarea name="comments" cols="40" rows="4">
+    Tutaj wpisz swój komentarz..
+    </textarea>
+    </form>
+    <br>
+    <form action="https://www.homebook.pl/">
+        <p>Wybierz swój ulubiony rodzaj muzyki
+            <br>
+            <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+            <input type="radio" name="genre" value="pop" /> Pop
+            <input type="radio" name="genre" value="jazz" /> Jazz
+        </p>
+    </form>
+<br>
+<form action="https://www.homebook.pl/">
+    <p>Wybierz swoją ulubioną usługę muzyczną:
+        <br>
+        <input type="checkbox" name="service" value="itunes" checked="checked" /> iTtunes
+        <input type="checkbox" name="service" value="lastfm" /> Last.fm 
+        <input type="checkbox" name="service" value="spotify" /> Spotify
+    </p>
+</form>
+<br>
+<form action="https://www.homebook.pl/">
+<p>Jakiego urządzenia używasz do słuchania muzyki</p>
+<select name="devices">
+    <option value="ipod">iPod</option>
+    <option value="radio">Radio</option>
+    <option value="computer">Komputer</option>
+</select>
+</form>
+<br>
+<form action="https://www.homebook.pl/">
+<p>Czy grasz na następujących insturmentach?
+    <br>
+    (Można zaznaczyć więcej niż jedną opcję, naciśnij klawisz Ctrl na komputerach PC lub klawisz Command na komputerach Mac)
+</p>
+<select name="instruments" size="3" multiple="multiple">
+    <option value="guitar" selected="selected">gitara</option>
+    <option value="drums">perkusja</option>
+    <option value="keyboard" selected="selected">keyboard</option>
+    <option value="bass">gitara basowa</option>
+</select>
+</form>
+
+
+
+</html>

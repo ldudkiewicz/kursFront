@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    table,
+    td,
+    th {
+        border: 1px solid black;
+    }
+</style>
+<body>
+    
+<!-- table - tworzy tło tabeli -->
+<!-- thead - nagłówek tabeli -->
+<!-- tr - rzad tabeli -->
+<!-- th - tworzy pogrubiony tekst w tabeli -->
+<!-- td - zwykły tekst w tabeli (nie pogrubiony) -->
+<!-- tbody - ciało tabeli -->
+<!-- colspan - scala komorki w td i th -->
+
+<main>
+    <h1>Lista gosci</h1>
+    <article>
+        <table>
+             <thead>
+                <tr>
+                    <th>Imię</th>
+                    <th>Miasto</th>
+                    <th>Numer</th>
+                 </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jan</td>
+                    <td>Kraków</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>Andrzej</td>
+                    <td>Warszawa</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>Beata</td>
+                    <td>Szczecin</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <td>Liczba gości</td>
+                <td colspan="2">3</td>
+            </tfoot>      
+        </table>
+    </article>
+</main>
+
+
+</body>
+</html>
